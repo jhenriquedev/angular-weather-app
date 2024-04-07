@@ -1,4 +1,4 @@
-export interface WheaterInterface{
+export interface WeatherInterface{
   coord: {
     lon: number;
     lat: number;

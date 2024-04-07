@@ -7,12 +7,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { WheaterHomeComponent } from './modules/wheater/page/wheater-home/wheater-home.component';
+import { WeatherHomeComponent } from './modules/weather/page/weather-home/weather-home.component';
+import { WeatherCardComponent } from './modules/weather/components/weather-card/weather-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WheaterHomeComponent
+    WeatherHomeComponent,
+    WeatherCardComponent
   ],
   imports: [
     BrowserModule,
